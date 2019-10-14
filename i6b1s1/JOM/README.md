@@ -4,17 +4,19 @@ JOM (Java Optimization Modeler) - darmowa, opensourcowa biblioteka Javy umożliw
 	Zasada działania przedstawiona jest na w przykładzie podanego na stronie JOM. Przedstawiony kod w  Javie rozwiązuje problem za pomocą JOM i GLPK solver dla losowo wybranych współczynników.
  
 
-
 Jak uruchomić
 
-W celu uruchomienia biblioteki należy ściągnąć pliki z rozszerzeniem .jar ze strony https://github.com/girtel/JOM/releases,
+W celu uruchomienia biblioteki należy ściągnąć pliki z rozszerzeniem .jar ze stron 
+https://github.com/girtel/JOM/releases,
 http://www.net2plan.com/jom/externalsoftware/jna.jar
-Oraz http://www.net2plan.com/jom/externalsoftware/parallelcolt-0.9.4.jar
-
+oraz http://www.net2plan.com/jom/externalsoftware/parallelcolt-0.9.4.jar
 Następnie dołączyć do projektu.
 
+Natomiast podany przykład jest w maven, gdzie wszystkie zasoby dodały już dodane.
+
+
 Dodatkowo w celu uruchomienia podanego przykładu należy zainstalować GLPK solver
-Ze strony http://winglpk.sourceforge.net systemu Windows.
+ze strony http://winglpk.sourceforge.net systemu Windows.
 W przypadku systemu Linux, niektóre wydania powinny mieć już to zainstalowanie. W innym przypadku należy pobrać odpowiednią wersję ze strony http://ftp.gnu.org/gnu/glpk.
 
  
